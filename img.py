@@ -20,4 +20,4 @@ def color():
 
     im_rgb = im.convert("RGB")  # HSVからRGBに変換
 
-    return im_rgb.save("imageFile/out_color.png")
+    return im_rgb.save("static/out_color.png")
